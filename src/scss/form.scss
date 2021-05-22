@@ -1,0 +1,23 @@
+.form{
+  width: 100%;
+  padding: 1rem 0;
+
+  &__input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+
+    &::placeholder{
+      color: silver;
+    }
+  }
+
+  &__label{
+    font-size: 1rem;
+    color: silver;
+  }
+
+}

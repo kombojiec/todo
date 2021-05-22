@@ -1,0 +1,11 @@
+@import './mixin.scss';
+
+.about{
+
+  &__button{
+    @include button;
+    display: block;
+    margin-left: auto;
+  }
+
+}

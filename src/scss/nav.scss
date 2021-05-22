@@ -1,0 +1,46 @@
+.nav{
+
+  padding: 2rem;
+  background-color: #ff6969;
+
+  &__logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5rem;
+  }
+
+  &__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  &__item{
+    margin: 0;
+    padding: 0;
+    margin-right: 1.5rem;
+  }
+
+  &__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+}

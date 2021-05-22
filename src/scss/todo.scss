@@ -1,0 +1,41 @@
+@import './mixin.scss';
+
+.todo{
+
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: silver;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  &__input{
+    margin-right: 1rem;
+  }
+
+  &__label{
+    display: flex;
+    align-items: center;
+
+    & span{
+      font-size: 1.2rem;
+    }
+  }
+
+  &__button{
+    @include button;
+  }
+
+  &__completed{
+    text-decoration: line-through;
+  }
+
+}
